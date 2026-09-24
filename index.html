@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ISIDOR CLONE IA</title>
+<style>
+body{background:#0a2e1e;color:white;font-family:sans-serif;padding:18px}
+input,textarea{width:100%;padding:14px;border-radius:12px;border:none;margin-top:10px}
+button{width:100%;padding:16px;border-radius:12px;border:none;font-weight:bold;margin-top:12px}
+</style>
+</head>
+<body>
+<h2 style="text-align:center">ISIDOR CLONE IA</h2>
+<input id="idee" placeholder="Que veux tu chercher ?">
+<textarea id="rep" style="height:150px;color:black">Bonjour, Isidor est occupe. J'attends...</textarea>
+<button onclick="document.getElementById('rep').value='Resultat pour: '+document.getElementById('idee').value" style="background:#7CFF7C;color:black">IMAGINER COMME META AI</button>
+<button onclick="window.open('https://wa.me/?text='+document.getElementById('rep').value)" style="background:#25D366;color:white">AUTORISER WhatsApp</button>
+<button onclick="window.open('sms:?body='+document.getElementById('rep').value)" style="background:white;color:black">AUTORISER Messages</button>
+</body>
+  </html>
